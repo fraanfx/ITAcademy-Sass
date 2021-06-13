@@ -112,20 +112,6 @@ h1 {
           animation-timing-function: ease-out;
 }
 
-@-webkit-keyframes map.get($map:$names,$key:$i) {
-  from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes map.get($map:$names,$key:$i) {
-  from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-  }
-}
-
 .strip:nth-child(2) .strip_content {
   background-color: #60BFBF;
   -webkit-animation-name: "strip--u4rx9pg";
@@ -134,13 +120,6 @@ h1 {
           animation-duration: 0.8s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-}
-
-@keyframes map.get($map:$names,$key:$i) {
-  from {
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0);
-  }
 }
 
 .strip:nth-child(3) .strip_content {
@@ -153,13 +132,6 @@ h1 {
           animation-timing-function: ease-out;
 }
 
-@keyframes map.get($map:$names,$key:$i) {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-  }
-}
-
 .strip:nth-child(4) .strip_content {
   background-color: #F8BB44;
   -webkit-animation-name: "strip--u4rx9qn";
@@ -168,13 +140,6 @@ h1 {
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-}
-
-@keyframes map.get($map:$names,$key:$i) {
-  from {
-    -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0);
-  }
 }
 
 .strip:nth-child(5) .strip_content {
@@ -187,10 +152,103 @@ h1 {
           animation-timing-function: ease-out;
 }
 
-@keyframes map.get($map:$names,$key:$i) {
+/*Animations*/
+@-webkit-keyframes strip--u4rx9pe {
   from {
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes strip--u4rx9pe {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@-webkit-keyframes strip--u4rx9pg {
+  from {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes strip--u4rx9pg {
+  from {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+  }
+}
+
+@-webkit-keyframes strip--u4rx9q8 {
+  from {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes strip--u4rx9q8 {
+  from {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+  }
+}
+
+@-webkit-keyframes strip--u4rx9qn {
+  from {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes strip--u4rx9qn {
+  from {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+  }
+}
+
+@-webkit-keyframes strip--u4rx9r0 {
+  from {
+    transform: translate3d(100%, 0, 0);
     -webkit-transform: translate3d(100%, 0, 0);
-            transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes strip--u4rx9r0 {
+  from {
+    transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+    -moz-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    -o-transform: translate3d(100%, 0, 0);
   }
 }
 /*# sourceMappingURL=style.css.map */
